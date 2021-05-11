@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 import hydra
-from google.cloud import storage
+#from google.cloud import storage
 from hydra_configs.pytorch_lightning.callbacks import ModelCheckpointConf
 from pytorch_lightning.callbacks import ModelCheckpoint
 from tqdm import tqdm
